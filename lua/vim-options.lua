@@ -1,8 +1,12 @@
 vim.cmd("set background=dark")
 
 
-vim.keymap.set('n','<C-u>','<C-u>zz')
-vim.keymap.set('n','<C-d>','<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+
+vim.keymap.set('n', '<C-l>', 'bnext')
+vim.keymap.set('n', '<C-h>', 'bprev')
+
 
 -- vim.opt.guicursor=""
 
